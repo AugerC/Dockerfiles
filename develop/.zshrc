@@ -107,7 +107,7 @@ autoload -U +X bashcompinit && bashcompinit
 # FZF Autocompletion
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Helm completion (if file doesnt exists execute helm completion zsh > ~/auger/helm.completion )
+# Helm completion (if file doesnt exists execute helm completion zsh > ~/.config/helm.completion )
 [ -f ~/.config/helm.completion ] && source ~/.config/helm.completion
 
 # Kubectl autocompletion (if file doesnt exists execute kubectl completion zsh > .config/kubectl.completion)
